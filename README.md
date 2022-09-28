@@ -1,1 +1,7 @@
-# primeiroE_3t
+# TERCEIRO TRIMESTRE
+
+## IDENTIFICAÇÃO
+Michael Kou Gibo Aseka n°27
+
+##CONTEUDO
+HTML,CSS e JAVASCRIPT
