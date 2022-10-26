@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,16 @@
     <title>PrimeiroE</title>
     <script src="estudo.js"></script>
 </head>
+
 <body>
-         valor: <input id="valor" type="text"><br>
-         juros(mensal): <input id="juros" type="text"><br>
-         n° meses: <input id="meses" type="text"><br>
-         <button onclick="calcula()">Calcular</button>
+    <div class="calculadora">
+        <span id="total">total:0,00</span><br>
+        valor: <input id="valor" placeholder="digite o valor" type="text"><br>
+        juros(mensal): <input id="juros" placeholder="% juros" type="text"><br>
+        n° meses: <input id="meses" placeholder="tempo" type="text"><br>
+        <button onclick="calcula()">Calcular</button><br>
+        <span id="mes">mês a mês</span>
+    </div>
 </body>
+
 </html>
