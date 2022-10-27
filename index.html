@@ -7,15 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PrimeiroE</title>
     <script src="estudo.js"></script>
+
+    <link rel="stylesheet" href="geral.css">
+
 </head>
 
 <body>
     <div class="calculadora">
-        <span id="total">total:0,00</span><br>
+        <div id="pstotal">
+            <span id="total">total:0,00</span><br>
+        </div>
         valor: <input id="valor" placeholder="digite o valor" type="text"><br>
         juros(mensal): <input id="juros" placeholder="% juros" type="text"><br>
         n° meses: <input id="meses" placeholder="tempo" type="text"><br>
-        <button onclick="calcula()">Calcular</button><br>
+        <button id="btncal" onclick="calcula()">Calcular</button><br>
         <span id="mes">mês a mês</span>
     </div>
 </body>
