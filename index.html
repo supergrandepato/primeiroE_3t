@@ -13,18 +13,28 @@
 </head>
 
 <body>
+    <input type="checkbox" id="calcfin">
+
     <div class="calculadora">
-        <div id="pstotal">
-            <span id="total">total:0,00</span><br>
-        </div>
-        valor: <input id="valor" placeholder="digite o valor" type="text"><br>
-        juros(mensal): <input id="juros" placeholder="% juros" type="text"><br>
-        n° meses: <input id="meses" placeholder="tempo" type="text"><br>
-        <button id="btncal" onclick="calcula()">Calcular</button><br>
-        <div class="spmes">
-            <span id="mes"></span>
+
+        <label for="calcfin">
+            <h3>Financeira</h3>
+        </label>
+        <div class="calcF">
+            <div id="pstotal">
+                <span id="total">total:0,00</span><br>
+            </div>
+            valor: <input id="valor" placeholder="digite o valor" type="text"><br>
+            juros(mensal): <input id="juros" placeholder="% juros" type="text"><br>
+            n° meses: <input id="meses" placeholder="tempo" type="text"><br>
+            <button id="btncal" onclick="calcula()">Calcular</button><br>
+            <div class="spmes">
+                <span id="mes"></span>
+                    
+            </div>
         </div>
     </div>
+
 </body>
 
 </html>
