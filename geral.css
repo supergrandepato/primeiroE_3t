@@ -17,6 +17,17 @@ body{
     color: whitesmoke;
     border-radius: 7px;
 }
+.calculadora input:focus{
+    background: rgb(0, 0, 0);
+    color: rgb(85, 0, 197);
+}
+.calcF{
+    display: none;
+}
+#calcfin:checked + .calculadora .calcF{
+    display: block;
+}
+
 #pstotal{
   background: rgb(156, 156, 156);
   color: aqua;
